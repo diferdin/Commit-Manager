@@ -37,7 +37,7 @@ class CommitMessageCheckHandlerFactory:CheckinHandlerFactory() {
                     isValid = false,
                     errorMessage = "The commit message is incorrect. It should:\n" +
                             "- start with EACBM-12345\n" +
-                            "- one spage\n" +
+                            "- one space\n" +
                             "- a description that starts with a capital letter [max 100 chars]\n" +
                             "- a final dot.\n" +
                             "Example: EACBM-12345 Refactored myClass."
